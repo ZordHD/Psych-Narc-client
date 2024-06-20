@@ -1,0 +1,254 @@
+.card-img-news-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-img-deps-top {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.card-img-popServ-top{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.card-News{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.card-Deps{
+    width: 100%;
+    height: 100%;
+
+}
+
+.card-Popular-Services{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+}
+
+.card-Partners{
+    background-color: white;
+    border-color: #3D9378;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-partners-top{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.card-img-gallery-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-Popular-Services:hover{
+    box-shadow: 0px 4px 20px rgba( 0, 0, 0, 25%);
+}
+
+.card-Gallery{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.card-Docs{
+    background: rgb(61,147,120);
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+
+.name-doc:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.card-Administration{
+    background: rgb(61,147,120);
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+    height: 100%;
+    width: 100%;
+    border-radius: 13px 13px;
+}
+
+.card-img-admins-top{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+
+.card-HallOfFame{
+    background: rgb(61,147,120);
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+    height: 100%;
+    width: 100%;
+    border-radius: 13px 13px;
+}
+
+
+.card-img-hof-top {
+    object-fit: cover;
+    width: 100%;
+    height: 220px;
+    
+}
+
+.card-acc-info{
+    box-shadow: 0px 12px 10px rgba( 0, 0, 0, 25%);
+}
+
+.div-Card{
+    height: 1px;
+    opacity: 10%;
+    max-width: 100%;
+    background-color: black;
+}
+
+.div-Card-2{
+    height: 1px;
+    width: 99%;
+    background-color: #00FFAF;
+}
+
+.div-Card-Administration{
+    height: 0.5px;
+    min-width: 99%;
+    opacity: 50%;
+    background-color: #00FFAF;
+}
+
+
+.button{
+    background: rgb(61,147,120);
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+    border-radius: 100px 100px 100px 100px !important;
+    border-color: #3D9378;
+}
+
+.button:hover{
+    background-color: white !important;
+    color: #3D9378 !important;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 15%);
+}
+
+.button-2{
+    background-color: white !important;
+    border-radius: 100px 100px 100px 100px !important;
+    border-color: #3D9378;
+    color: #3D9378;
+}
+
+.button-2:hover{
+    background-color: #00FFAF!important;
+    color: #3D9378 !important;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 15%);
+}
+
+.button-3{
+    background: rgb(61,147,120);
+    background: linear-gradient(0deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 100%);
+    border-radius: 100px 100px 100px 100px !important;
+}
+
+.button-3:hover{
+    background: white !important;
+    color: #3D9378 !important;
+    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 15%);
+}
+
+.card-News:hover{
+    box-shadow: 0px 4px 20px rgba( 0, 0, 0, 25%);
+}
+
+.circle-item {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3D9378;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .circle-item.active {
+    background-color: #1F674F; /* Цвет для активной страницы */
+  }
+    .circle-item::before,
+    .circle-item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: transparent; /* Делаем фон прозрачным */
+        border-radius: 50%;
+}
+
+  
+.humanitarian-Projects{
+    cursor: pointer;
+}
+
+.sexological-Help{
+    cursor: pointer;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.helpline-Other{
+    cursor: pointer;
+}
+
+.block-Standart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .footer{
+    background: rgb(61,147,120);
+    background: linear-gradient(180deg, rgba(61,147,120,1) 0%, rgba(31,103,79,1) 84%, rgba(31,103,79,1) 100%);
+    width: 100vw;
+    min-height: 385px;
+    margin-top: 100px;
+}
+
+.line-Footer{
+    display: flex;
+    height: 1px;
+    background-color: white;
+    max-width: 95%;
+    opacity: 60%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-Container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

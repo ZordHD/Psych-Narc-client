@@ -1,0 +1,138 @@
+@media (max-width: 1174px) {
+    .row-header{
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1175px) {
+    .row-header{
+        width: 80vw;
+    }
+}
+
+@media (max-width:1274px){
+    .div-more-news {
+        transform: translateX(-30px);
+        padding-top: 100px;
+    }
+}
+
+@media (min-width:1274px){
+    .div-more-news {
+        transform: translateX(519px);
+    }
+}
+
+@media (max-width:1274px){
+    .div-more-services {
+        transform: translateX(-103px);
+        padding-top: 100px;
+    }
+}
+
+@media (min-width:1274px){
+    .div-more-services {
+        transform: translateX(519px);
+    }
+}
+
+@media (max-width:1333px){
+    .text-nav{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width:1700px){
+    .text-nav {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-text-header{
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .col-icon-header{
+        width: 60px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-menu {
+        display: none;
+      }
+      .navbar-menu NavLink {
+        display: none;
+      }
+
+    .navbar-menu.open {
+        display: flex;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      border-color: #3D9378;
+      border-width: 10px;
+      z-index: 2;
+    }
+  }
+
+@media (max-width: 1268px) {
+    .navbar-menu-medium {
+      flex-direction: column;
+      background-color: gray;
+      width: 100%;
+    }
+  }
+
+@media (max-width: 991px){
+    .text-nav{
+        color: #3D9378;
+    }
+}
+
+@media (max-width: 1471px){
+    .text-nav{
+        color: #3D9378;
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 1471px){
+    .text-nav{
+        color: #3D9378;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 34px;
+    }
+}
+
+@media (max-width: 1463px){
+    .navbar-icon{
+        size: 32px;
+    }
+}
+
+@media (max-width: 1000px){
+    .row-helpline{
+        display: block;
+    }
+}
+
+@media (max-width: 993px){
+    .col-icon-helpline{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 410px){
+    .container-icon-media-helpline{
+        max-width: 50vw;
+    }
+}
+

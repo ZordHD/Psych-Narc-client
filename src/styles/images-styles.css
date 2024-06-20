@@ -1,0 +1,74 @@
+.Hotline{
+    margin-left: 10px;
+}
+
+.WorkHours{
+    margin-bottom: 20px;
+}
+
+.lineDiv{
+    background-color: #00FFAF;
+    width: 1px;
+    height: 51px;
+    opacity: 50%;
+}
+
+.lineDiv-2{
+    background-color: #00FFAF;
+    width: 2px;
+    height: 100%;
+    opacity: 50%;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    color: #ffff;
+}
+
+.image-Deco{
+    text-align: center;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #4BB594;
+    width: 100%;
+    height: 9px;
+}
+
+.image-Deco-2{
+    text-align: center;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #4BB594;
+    width: 100%;
+    height: 15px;
+}
+
+.image-Deco-Title{
+    text-align: center;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #4BB594;
+    width: 100%;
+    height: 9px;
+}
+
+.wrap{
+    display: inline-block;
+}
+
+.section-Divider{
+    background-color: #00FFAF;
+    height: 1.5px;
+    max-width: 80%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section-Divider-Container{
+    background-color: #00FFAF;
+    height: 1.5px;
+    max-width: 100%;
+}
+
+

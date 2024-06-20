@@ -1,0 +1,10 @@
+body{
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.underlined-text{
+    text-decoration: underline #3D9378;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 2px;
+}
